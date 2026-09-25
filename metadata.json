@@ -1,0 +1,6 @@
+{
+  "name": "Business Empire: Richman Tycoon",
+  "description": "Build an elite corporate empire from scratch. Acquire enterprises, trade stocks and crypto, invest in prime real estate, manage a private commercial bank, and collect ultra-luxury assets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

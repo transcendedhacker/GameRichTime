@@ -1,0 +1,102 @@
+import { RealEstateItem } from '../types/game';
+
+export const initialRealEstate: RealEstateItem[] = [
+  {
+    id: 'suburban_home',
+    name: 'Maplewood Suburban Townhouse',
+    tier: 'Residential',
+    location: 'Westchester County, NY',
+    purchasePrice: 95000,
+    currentMarketValue: 95000,
+    baseRentPerHour: 950,
+    owned: false,
+    renovationStars: 0,
+    renovationCost: 25000,
+    description: 'Charming 3-bedroom colonial with manicured front lawn in a top school district. Consistently tenanted by young professionals.',
+    features: ['3 Bedrooms', '2 Bathrooms', 'Attached Garage', 'School District Rating 9/10']
+  },
+  {
+    id: 'downtown_loft',
+    name: 'Tribeca Industrial Luxury Loft',
+    tier: 'Residential',
+    location: 'Lower Manhattan, NY',
+    purchasePrice: 420000,
+    currentMarketValue: 420000,
+    baseRentPerHour: 4500,
+    owned: false,
+    renovationStars: 0,
+    renovationCost: 110000,
+    description: 'Exposed brick, 14-foot timber-beam ceilings, oversized factory windows, and custom chef kitchen. Highly sought by Wall Street executives.',
+    features: ['2,400 Sq Ft', 'Keyed Elevator Access', 'Wine Cellar', 'Italian Marble Counters']
+  },
+  {
+    id: 'beverly_villa',
+    name: 'Beverly Hills Mediterranean Villa',
+    tier: 'Luxury',
+    location: 'Beverly Hills, CA',
+    purchasePrice: 2800000,
+    currentMarketValue: 2800000,
+    baseRentPerHour: 28000,
+    owned: false,
+    renovationStars: 0,
+    renovationCost: 750000,
+    description: 'Gated estate with infinity edge pool, tennis court, screening room, and panoramic canyon vistas. Leased to Hollywood production executives.',
+    features: ['6 Bed Suites', 'Olympic Swimming Pool', 'Private Screening Room', '24/7 Guarded Gate']
+  },
+  {
+    id: 'manhattan_penthouse',
+    name: 'Billionaires’ Row Glass Penthouse',
+    tier: 'Luxury',
+    location: '57th Street, Manhattan, NY',
+    purchasePrice: 14500000,
+    currentMarketValue: 14500000,
+    baseRentPerHour: 135000,
+    owned: false,
+    renovationStars: 0,
+    renovationCost: 3800000,
+    description: 'Spanning the top two floors of an ultra-slender skyscraper. 360-degree vistas of Central Park and the Atlantic ocean.',
+    features: ['8,500 Sq Ft Interior', 'Wraparound Glass Terrace', 'Private Spa & Sauna', 'Helipad Access']
+  },
+  {
+    id: 'commercial_plaza',
+    name: 'Aegis Plaza Corporate Towers',
+    tier: 'Commercial',
+    location: 'Financial District, London',
+    purchasePrice: 65000000,
+    currentMarketValue: 65000000,
+    baseRentPerHour: 580000,
+    owned: false,
+    renovationStars: 0,
+    renovationCost: 18000000,
+    description: 'A 42-story commercial glass monument leased to global investment banks, international law firms, and tech headquarters.',
+    features: ['42 Stories', 'LEED Platinum Certified', 'Subterranean Transit Concourse', '99.4% Occupancy']
+  },
+  {
+    id: 'riviera_resort',
+    name: 'Cap Ferrat Oceanfront Palace',
+    tier: 'Exclusive',
+    location: 'French Riviera, France',
+    purchasePrice: 220000000,
+    currentMarketValue: 220000000,
+    baseRentPerHour: 1850000,
+    owned: false,
+    renovationStars: 0,
+    renovationCost: 60000000,
+    description: 'Historic Belle Époque palace with private Mediterranean sea cove, botanical gardens, and private yacht tender jetty.',
+    features: ['Private Sea Cove', '15 Guest Suites', 'Botanical Palm Gardens', 'Private Yacht Dock']
+  },
+  {
+    id: 'private_island',
+    name: 'Isla de la Corona (Private Island)',
+    tier: 'Exclusive',
+    location: 'Exuma Cays, Bahamas',
+    purchasePrice: 750000000,
+    currentMarketValue: 750000000,
+    baseRentPerHour: 6200000,
+    owned: false,
+    renovationStars: 0,
+    renovationCost: 180000000,
+    description: 'A self-sustaining 300-acre private tropical paradise with twin white-sand airstrips, deepwater mega-yacht marina, and solar microgrid.',
+    features: ['300 Acres', 'Twin Private Airstrips', 'Deepwater Superyacht Marina', '100% Off-Grid Solar']
+  }
+];
